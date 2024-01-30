@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <h1>Tarefas</h1>
+        <section class="listas">
+            <div class="listaP" id="listaProf">
+                <p>Profissionais</p>
+            </div>
+            <div class="listaL" id="listaLazer">
+                <p>Lazer</p>
+            </div>
+        </section>
+        <div class="formulario">
+            <input type="text" id="valor"/>
+            <div class="botoes">
+                <button
+                onclick="salvar('listaProf')">Profissional</button>
+                <button
+                onclick="salvar('listaLazer')">Lazer</button>
+            </div>    
+        </div>
+    </main>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,98 @@
+body {
+    --cor-1: #f3e8ff;
+    --cor-3: #d8b4fe;
+    --cor-7: #7e22ce;
+    --radius-small: 8px;
+    --radius-normal: 12px;
+
+    background-color: var(--cor-1);
+    margin: 0;
+    font-family: 'Montserrat';
+  }
+  
+main {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--cor-3);
+    width: 600px;
+    margin: 12px auto;    
+    padding: 12px;
+    border-radius: var(--radius-normal);
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+button {
+    background-color: var(--cor-7);
+    border: none;
+    color: white;
+    padding: 6px 16px;
+    border-radius: var(--radius-small);
+    cursor: pointer;
+}
+
+input {
+    border: 1px solid var(--cor-7);
+    border-radius: var(--radius-small);
+    padding: 10px 6px;
+}
+
+.listas{
+    display: flex;
+    gap: 6px;
+}
+
+.listaP{
+    flex-grow: 1;
+    flex-basis: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.listaL{
+    flex-grow: 1;
+    flex-basis: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.card {
+    background-color: var(--cor-1);
+    padding: 8px;
+    border-radius: var(--radius-normal);
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+}
+
+.card button{
+    align-self: center;
+}
+
+.formulario{
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+
+}
+
+.botoes{
+    display: flex;
+    gap: 6px;
+}
+
+.botoes button{
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
